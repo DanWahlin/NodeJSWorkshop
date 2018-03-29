@@ -8,7 +8,7 @@
      <script>  
       window.onload = function() {   
         var output = document.getElementById('output');
-        var socket = io.connect('http://localhost:8080');
+        var socket = io.connect('http://localhost:9000');
 
         socket.on('news', function (data) {
           log(data.news);
