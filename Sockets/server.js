@@ -2,8 +2,8 @@ const server = require('http').createServer(handler),
     io = require('socket.io')(server),
     fs = require('fs');
 
-server.listen(8080);
-console.log('Listening on port 8080');
+server.listen(9000);
+console.log('Listening on port 9000');
 
 function handler (req, res) {
   fs.readFile(__dirname + '/index.html',  (err, data) => {
