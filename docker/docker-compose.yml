@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  nodejsworkshop:
+    image: nodejsworkshop
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 9000:9000
