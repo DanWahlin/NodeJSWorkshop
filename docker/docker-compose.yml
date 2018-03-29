@@ -2,7 +2,7 @@ version: '2.1'
 
 services:
   nodejsworkshop:
-    image: nodejsworkshop
+    image: nodejsworkshop-docker-intro
     build: .
     environment:
       NODE_ENV: production
