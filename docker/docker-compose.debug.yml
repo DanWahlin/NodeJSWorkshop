@@ -10,4 +10,4 @@ services:
       - 9000:9000
       - 9229:9229
     ## set your startup file here
-    command: node --inspect=0.0.0.0:9229 www/index.js
+    command: node --inspect=0.0.0.0:9229 public/index.js

@@ -7,7 +7,7 @@
 
 ## Quick Start
 
-1. node www/index.js
+1. node public/index.js
 2. Open postman
 3. Create a GET request to <http://localhost:9000/api/heroes> and send it
 4. Notice there are not heroes, let's add one
