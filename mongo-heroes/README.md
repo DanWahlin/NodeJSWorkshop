@@ -9,9 +9,9 @@
 
 1. node www/index.js
 2. Open postman
-3. Create a GET request to <http://localhost:8080/api/heroes> and send it
+3. Create a GET request to <http://localhost:9000/api/heroes> and send it
 4. Notice there are not heroes, let's add one
-5. Create a POST request to <http://localhost:8080/api/hero>
+5. Create a POST request to <http://localhost:9000/api/hero>
 6. Add the body to the request in `json` format
 
   ```json
@@ -23,5 +23,5 @@
   ```
 
 7. Send the POST request
-8. Create a GET request to <http://localhost:8080/api/heroes> and send it
+8. Create a GET request to <http://localhost:9000/api/heroes> and send it
 9. You should see your new hero in the results!
